@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.assignmenttwo.activity.MainActivity">
+    <item android:id="@+id/action_answer_page"
+          android:title="@string/action_settings"
+          android:icon="@drawable/ic_action_answer_page"
+          app:showAsAction="ifRoom"
+    />
+
+    <item android:id="@+id/action_back_to_persons"
+          android:title="@string/action_settings"
+          android:icon="@drawable/ic_action_back_to_persons"
+          app:showAsAction="ifRoom"
+    />
+    <item android:id="@+id/action_confirm"
+          android:title="@string/action_settings"
+          android:icon="@drawable/ic_action_confirm"
+          app:showAsAction="ifRoom"
+    />
+
+    <item android:id="@+id/action_back"
+          android:title="@string/action_settings"
+          android:icon="@drawable/ic_action_back_to_persons"
+          app:showAsAction="ifRoom"
+    />
+    <item android:id="@+id/action_ok"
+          android:title="@string/action_settings"
+          android:icon="@drawable/ic_action_confirm"
+          app:showAsAction="ifRoom"
+    />
+</menu>
